@@ -16,7 +16,7 @@ var guessArray = [];
 var usedKeysArray = [];
 var correctGuessCount = 0;
 var emptyChar = [];
-maxTry = 9;
+maxTry = 15;
 var score=0;
 
 
@@ -36,7 +36,7 @@ function restart() {
     indivChar = "";
     usedKeysArray.length = 0;
     correctGuessCount = 0;
-    maxTry = 9;
+    maxTry = 15;
     chosenWord = gotDictArray[Math.floor(Math.random() * gotDictArray.length)];
     indivChar = chosenWord.split("");
 
