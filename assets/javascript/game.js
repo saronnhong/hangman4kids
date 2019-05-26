@@ -8,7 +8,7 @@ var scoreText = document.getElementById("score-text");
 document.getElementById('continueButton').style.visibility = 'hidden';
 
 
-var gotDictArray = ["aubrey", "eliana", "spidergwen", "squirrelgirl", "donut", "true", "sofia", "msmarvel", "rice", "cookie", "ninja", "unclesaron", "cake", "tayo", "cupcake", "sprinkles", "spiderman", "captainmarvel", "ironman", "quake", "ballerina", "mommy", "daddy", "bonchon", "snow", "hideandseek", "govisitunclesaroninsandiego", "beach", "sand", "squirtle", "chang", "milk", "chocolatechip"];
+var gotDictArray = ["aubrey", "eliana", "spidergwen", "squirrelgirl", "donut", "true", "sofia", "msmarvel", "rice", "cookie", "ninja", "unclesaron", "cake", "tayo", "cupcake", "sprinkles", "spiderman", "captainmarvel", "ironman", "quake", "ballerina", "mommy", "daddy", "bonchon", "snow", "hideandseek", "iwanttogovisitunclesaroninsandiego", "beach", "sand", "squirtle", "chang", "milk", "chocolatechip", "icecream", "strawberry", "apple", "eggs", "soccer"];
 var chosenWord = gotDictArray[Math.floor(Math.random() * gotDictArray.length)];
 var indivChar = chosenWord.split("");
 var answerArray = [];
